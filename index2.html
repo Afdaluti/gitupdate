@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" >
+  <li><a href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"></a></li> 
+  <link href="costum.css" rel="stylesheet">
+</head>
+
+<body  >
+  <header>
+    <!-- place navbar here -->
+    <!-- Nav tabs -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+        <div class="container-fluid">
+            <h2 class="navbar-brand" href="title text-bg-light "> <font style="color: azure;"> DAL </font> <font style="color :aquamarine;"> WEB </font></h2>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class=" navbar-nav me-auto my-2 my-lg-2 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active text text-white" aria-current="paget" href="tab1Id ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text text-white" href="tab2Id">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="tab3Id" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    <!-- Tab panes -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+    </div>
+    
+    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
+    <script>
+        var triggerEl = document.querySelector('#navId a')
+        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
+    </script>
+    
+  </header>
+  <main
+       style=" background-image : url(=); background-repeat: no-repeat;" > 
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class=" col   col-sm-12 col-md-4 col-lg-4 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Menu</span>
+                    </a>
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link align-middle px-0">
+                                <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                            <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1 </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2 </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                        </li>
+                        <li>
+                            <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                                <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+                                <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 1</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                        </li>
+                    </ul>
+                    <hr>
+                    <div class="dropdown pb-4">
+                        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="foto2.jfif" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                            <span class="d-none d-sm-inline mx-1">loser</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                            <li><a class="dropdown-item" href="#">New project...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class= " col   col-sm-12 col-md-6 col-lg-6">
+                <img src="GIT.jpg" align="left"  width="200px" ><h2><p> <p> <p>  1. GIT(Group include Tour)</p> </p> </p></h2>  <p>  <p>  <p> <p>   <br> <br>   <h3>GIT ?</h3> 
+                     Secara sederhana git itu salah satu dari,Vcs (Version control sistem)Version control sistem disebut juga revision control sistem atau source code management adalah sistem yang mengelolah perubahan dari sebuah dokumen,program komputer,website dan kumpulan informasi lain.
+                    
+                  <br>   KENAPA KITA MENGGUNAKAN VERSION CONTROL ?
+                     <li> Kita bisa melacak versi/History perubahan    </li>
+                     <li > Memungkinkan bekerja berkolaborasi dengan lebih baik </li>
+                     <li > Mengetahui siapa yang melakukan dan kapan sebuah perubahan terjadi  </li>
+                     <li > Memunginkan kita untuk kembali ke keadaan sebelum perubahan(checkout)  </li>
+                    
+                    
+                    
+                </p> </p> </p> </p>  
+                  <h4>ISTILAH-ISTILAH DIDALAM GIT</h4>
+                FOLDER PROJET<h5>REPOSITORY/REPO</h5> 
+                <br>REKAHAMAN ATAU HISTORY/SNAPSHOOT<h5>COMMIT</h5>
+                <br>PENANDA UNIK PADA COMMIT<h5>HASH</h5>
+                <br>BERPINDAH KESEBUAH COMMIT<h5>CHECKOUT</h5>
+                <br>CABANG BEBAS DARI SEBUAH COMMIT<h5>BRANCH</h5>
+                <br>MENGGABUNGKAN CABANG ATAU BRANCH<h5>MERGE</h5>
+                <br>SUMBER MEMILIKI REPO<h5>REMOTE</h5>
+                <br>MENGGAMBIL REPO DARI REMOTE<h5>CLONE</h5>
+                <br>MENGGIRIMKAN COMMIT KE REPO<h5>PUSH</h5>
+                <br>MENGGAMBIL COMMIT DARI REPO<h5>PULL</h5>
+               <br> <h3>Cara Install Git di Windows</h3>
+               <br>Silahkan buka website resminya Git ( git-scm.com). Kemudian unduh Git sesuai dengan arsitektur komputer kita. Kalau menggunakan 64bit, unduh yang 64bit. Begitu juga kalau menggunakan 32bit.
+             <br><h4> Langkah-langkah Install Git di Windows</h4> 
+               Baiklah, mari kita mulai ritual instalnya. Silahkan klik 2x file instaler Git yang sudah diunduh.
+               <p> <img src="cara1.JPG"></p>
+               <p>Maka akan muncul infomasi lisensi Git, klik Next  untuk melanjutkan.</p>
+               <p> <img src="cara2.JPG"></p>
+               <p>Selanjutnya menentukan lokasi instalasi. Biarkan saja apa adanya, kemudian klik Next.</p>
+
+               <p> <img src="cara3.JPG"></p>
+               <p>Selanjutnya pemilihan komoponen, biarkan saja seperti ini kemudian klik Next .</p>
+
+               <p> <img src="cara4.JPG"></p>
+               <p>Selanjutnya pemlilihan direktori start menu, klik Next.</p>
+
+               <p> <img src="cara5.JPG"></p>
+               <p>Selanjutnya pengaturan PATH Environment. Pilih yang tengah agar perintah git dapat di kenali di Command Prompt (CMD). Setelah itu klik Next.</p>
+
+               <p> <img src="cara6.JPG"></p>
+               <p>Selanjutnya konversi line ending. Biarkan saja seperti ini, kemudian klik Next </p>
+
+               <p> <img src="cara7.JPG"></p>
+               <p>Selanjutnya pemilihan emulator terminal. Pilih saja yang bawah, kemudian klik Next </p>
+
+               <p> <img src="cara8.JPG"></p>
+               <p>Selanjutnya pemilihan opsi ekspreimental, langsung saja klik Install untuk memaulai instalasi.
+
+               </p>
+               <p> <img src="cara12.JPG"></p>
+               <p>Tunggu beberapa saat, instalasi sedang dilakukan.
+
+               </p>
+               <p> <img src="cara13.JPG"></p>
+               <p>Setelah selesai, kita bisa langsung klik Finish.
+
+               </p>
+            
+            
+            <p>Selamat, Git sudah terinstal di Windows. Untuk mencobanya, silahkan buka CMD atau PowerShell, kemudian ketik perintah git --version.
+
+
+                <p> <img src="cara14.JPG"></p>
+            </p>
+            <br><h4> Konfigurasi Awal yang Harus Dilakukan</h4>
+            Ada beberapa konfigurasi yang harus dupersiapakan sebelum mulai menggunakan Git, seperti name dan email.
+
+            <p> Silahkan lakukan konfigurasi dengan perintah berikut ini. </p>
+           <p class="bg-dark text-light"> git config --global user.name "Petani Kode"
+           <br> git config --global user.email contoh@petanikode.com</p>
+           <p> Kemudian periksa konfigurasinya dengan perintah: </p>
+           <p class="bg-dark text-light"> git config --list</p>
+           <p> Apabila berhasil tampil seperti gambar berikut ini, berarti konfigurasi berhasil. </p>
+           <p><img src="cara15.png"> </p>
+
+               <hr>
+                   <br> 
+                      <p>   <img src="GIT1.JPg" align="left"  width="200px" ><p align= "left">  <h2> 2. GITHUB</h2>   
+                        
+                          </p></p> 
+                          <br> 
+                          <br> 
+                           sebuah website yang bisa kalian kunjungi kalian registrasi,<a href="link">https://github.com/ </a>,dengan pembuatan akun,yaitu kalian bisa upload file atau bikin file didalamnya nanti filenya bisa dikelola menggunakan VCS(version control sistem),ini kebalikannya kalian bisa bekerja di GITHUB tanpa nginstal git, yang  git itu salah satu dari,Vcs (Version control sistem)Version control sistem disebut juga revision control sistem atau source code management adalah sistem yang mengelolah perubahan dari sebuah dokumen,program komputer,website dan kumpulan informasi lain.
+         </div>
+            <div class=" col   col-sm-12 col-md-4 col-lg-4">
+                <ul class="list-unstyled">
+                    <li class="d-flex"> 
+                        <div class="flex-shrink-0">
+                            <img src="#" alt="" width="300">
+                        </div>
+                        <div class="flex-grow-1 ms-3 text-center">
+                            <img src="svn.jpg" width="200px" class="img-thumbnail" alt="...">
+                            <p>This is some content from a media component. You can replace this with any content and adjust it as
+                                needed.</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="#" alt="" width="">
+                        </div>
+                        <div class="flex-grow-1 ms-3 text-center">
+                            <img src="mrc.jpg" width="200px" class="img-thumbnail" alt="...">
+                            <p>This is some content from a media component. You can replace this with any content and adjust it as
+                                needed.</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="#" alt="" width="">
+                        </div>
+                        <div class="flex-grow-1 ms-3 text-center">
+                            <img src="cvs.jpg" width="200px" class="img-thumbnail" alt="...">
+                            <p>This is some content from a media component. You can replace this with any content and adjust it as
+                                needed.</p>
+                        </div>
+                    </li>
+                    <li class="d-flex">
+                        <div class="flex-shrink-0">
+                            <img src="#" alt="" width="">
+                        </div>
+                        <div class="flex-grow-1 ms-3 text-center">
+                            <img src="bcb.jpg" width="200px" class="img-thumbnail" alt="...">
+                            <p>This is some content from a media component. You can replace this with any content and adjust it as
+                                needed.</p>
+                                <li class="d-flex">
+                                    <div class="flex-shrink-0">
+                                        <img src="#" alt="" width="">
+                                    </div>
+                                    <div class="flex-grow-1 ms-3 text-center">
+                                        <img src="gtb1.jpg" width="200px" class="img-thumbnail" alt="...">
+                                        <p>This is some content from a media component. You can replace this with any content and adjust it as
+                                            needed.</p>
+                                    </div>
+                                </li>
+                             
+                            
+                        </div>
+                    </li>
+                </ul>
+                
+                
+                
+                
+              </div>
+            </div>
+          </div>
+    
+        
+                  
+             
+            
+        
+      
+  </main>
+  <footer class="footer">
+        <div class="row ">
+        <div class="col-sm-4 bg-dark">
+          <p>  <h4 class="title text-light text-center">  DAL <font style="color :aquamarine;"> WEB </font> </h4></p>
+                      <ul class="social-icon">
+            <a href="#" class="social"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-google" aria-hidden="true"></i></a>
+            <a href="#" class="social"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+            </ul>
+            </div>
+        <div class="col-sm-4 bg-dark" >
+            <h4 class="title text-white">My Account</h4>
+            <span class="acount-icon  text-white">          
+           <li > <a href="#">Instagram :<i class="fa fa-heart" aria-hidden="true"></i>@Afdaluty</a></li>
+            <li> <a href="#">Facebook :<i class="fa fa-cart-plus" aria-hidden="true"></i>AFDALUTI</a></li>
+                <li> <a href="#">Twiter<i class="fa fa-user" aria-hidden="true"></i>GAMESAFDAL</a></li>
+                    <li> <a href="#">Ios<i class="fa fa-globe" aria-hidden="true"></i>DAL</a>  </li>         
+          </span>
+            </div>
+       
+        <div class="col-sm-4  bg-dark">
+            <h4 class="title text-white">Payment Methods</h4>
+            <p ><font style="color: white ;" >Ipsum is simply dummy text of the printing and typesetting industry.</font></p>
+           
+            </div>
+        </div>
+        <hr>
+        
+        <div class="row text-center"> © 2017. Made with  by sumi9xm.</div>
+       
+        
+        
+    </footer>
+    
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+ integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
